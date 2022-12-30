@@ -16,7 +16,7 @@
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-item>
-            <NuxtLink class="find-food" aria-current="page" to="/findfood">
+            <NuxtLink class="find-food" aria-current="page" to="/products">
               <b-icon icon="pin-map"></b-icon> Find Food
             </NuxtLink>
           </b-nav-item>
