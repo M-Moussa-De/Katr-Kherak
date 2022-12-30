@@ -1,0 +1,115 @@
+ /* Variables */
+:root {
+  --bg-body-color: #f9f9f9;
+  --color-text: rgba(0 0 0 /0.7);
+  --color-white: #fff;
+  --color-lightgray: #eee;
+  --color-orange: #f3b129;
+  --color-green: #a8c257;
+
+  --color-dark-navy: #114d4d;
+  --color-light-navy: #1b8989;
+  --color-2xlight-navy: #1ac3af;
+  --color-light-blue: #4f80d6;
+}
+/* End Variables */
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-body-color);
+  scroll-behavior: smooth;
+  color: var(--color-text);
+  overflow-x: hidden;
+  font-size: 10px;
+}
+
+section[id]:not(section#hero) {
+  padding: 5rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.9rem;
+}
+
+h5,
+h6 {
+  font-size: 1.6rem;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+input.form-control
+ {
+    padding: 1.5rem 1rem;
+    font-size: 1.6rem;
+}
+
+input,
+textarea,
+select, .custom-file-label {
+    border: 1px solid #eee !important;
+}
+
+label, fieldset.form-group {
+    font-size: 1.6rem;
+}
+
+input::placeholder,
+textarea::placeholder,
+.custom-file-label {
+  color: rgb(189, 189, 189) !important;
+  font-size: 1.5rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.custom-file-label {
+  border-color: rgb(161, 161, 161);
+  box-shadow: none !important;
+}
+
+ /* utilities classes */
+.btn,
+.btn:hover,
+.btn:active {
+  border: none;
+  font-size: 1.6rem;
+}
+
+.header {
+  text-align: center;
+  color: var(--color-dark-navy);
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+}
